@@ -76,7 +76,7 @@ main{
 
 .imagem__bandeira{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     background: url(../../imagens/img-bandeira-mobile.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -88,12 +88,12 @@ main{
     font-size: 1em;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
 }
 
 .imagem__time-entrando{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     background: url(../../imagens/time-\ entrando-em-campo-mobile.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -104,7 +104,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
 }
 
 .imagem__zico{

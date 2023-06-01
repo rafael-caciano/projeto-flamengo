@@ -1,4 +1,7 @@
 @charset "utf-8";
+@media screen and (min-width: 768px) {
+    
+
 
 *{
     margin: 0;
@@ -30,31 +33,66 @@
     top: 6px;
 }
 
+.icone__menu{
+    display: none;
+}
+
 .menu__itens{
+    background-color: transparent;
     display: flex;
-    width: 100vw;
+    flex-direction: row;
+    height: 50px;
+    width: 70vw;
+    padding: 0;
     justify-content: right;
+    align-items: center;
     gap: 50px;
     padding-right: 30px;
+    transform: translateX(0px);
 }
 
 .menu__itens > a{
     text-decoration: none;
     color: aliceblue;
+    border-bottom: none;
 
     
 }
 
-
-
-
-
-
-
-
-
-
-
-main{
-    display: none;
+.imagem__bandeira{
+    background: url(../../imagens/img-bandeira-01.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
+
+.imagem__time-entrando{
+    background: url(../../imagens/time-\ entrando-em-campo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imagem__zico{
+    width: 100vw;
+    height: 150vh;
+    background: url(../../imagens/desenho-zico.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    color: white;
+}
+
+.video{
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    margin-bottom:50px;
+}
+
+
+
+
+
+}
+
