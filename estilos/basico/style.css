@@ -130,8 +130,8 @@ main{
     line-height: 1.8em;
     text-indent: 2em;
 
-    box-shadow: inset 1px 1px 10px 1px rgba(0, 0, 0, 0.484);
-    box-sizing: border-box;
+   /* box-shadow: inset 1px 1px 10px 1px rgba(0, 0, 0, 0.484);
+    box-sizing: border-box;*/
 }
 .corpo__txt p {
     padding:30px ;
