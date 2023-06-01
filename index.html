@@ -14,9 +14,8 @@
     <header class="menu" > <!--vai conter o menu q será fixo msm com rolagem-->
          <nav class="menu__itens" id="menu__hb">
             
-        <span class="material-symbols-outlined icone__menu" onclick="menu()">
-            menu
-        </span>
+       
+       
             <a href="#">home </a>
             <a href="#">flamengo</a>
             <a href="#">libertadores</a>
@@ -24,46 +23,61 @@
             <a href="#">titulos</a>
             <a href="#">contato</a>
          </nav>
-         <p class="logo"> <img src="./imagens/escudo-flamengo-peq.png" alt="escudo do flamengo"> FLAMENGO</p>
+         <p class="logo" > <img src="./imagens/escudo-flamengo-peq.png" alt="escudo do flamengo"> FLAMENGO</p>
     </header>
 
-    
+     <span id="ilogo" class="material-symbols-outlined icone__menu" onclick="clickMenu()">menu</span>
     
 
 
     <main>
-        <div class="imagem imagem__zico">
-            <p>AAAAAAAAAAAAAAAAAAAAA</p>
+        <div class="imagem imagem__bandeira">
+            <p>- F L A M E N G O -</p>
         </div>
-        <article>
+        <article class="corpo__txt">
             <p>O Flamengo foi fundado em 17 de novembro de 1895 para as disputas de remo. A entrada da equipe no futebol aconteceu em 1912. Atualmente, o time rubro-negro é o maior vencedor da história do Campeonato Carioca, com 31 títulos. Segundo diversas pesquisas, é o clube com o maior número de torcedores do País. Os dois principais títulos da história do Flamengo ocorreram em 1981. Comandado pelo ídolo Zico, o time conquistou a Copa Libertadores da América, em final contra o Cobreloa, do Chile, e o Mundial Interclubes, diante do Liverpool, da Inglaterra. Foi na década de 1980, também, que o Flamengo conquistou o seu primeiro Campeonato Brasileiro.</p>
 
         </article>
-        <div class="imagem">
-            <p>AAAAAAAAAAAAAAAAAAAAA</p>
+        <div class="imagem__time-entrando">
+            <p>- O  J O G O -</p>
         </div>
-        <article>
+        <article class="corpo__txt">
             <p>Flamengo e Atlético-MG integraram o grupo 3 com Cerro Porteño e Olímpia. Após seis rodadas, os dois brasileiros terminaram empatados com oito pontos. Neste caso, enfrentaram-se em partida neutra para definir quem seria o primeiro colocado do grupo</p>.
 
             <p>O jogo extra aconteceu no Estádio Serra Dourada, em Goiânia, no dia 21 de agosto. Com cara de final, os ânimos estavam aflorados. Além disso, a sequência de cinco atletas expulsos para o Atlético deixou o duelo completamente confuso. Por regra um elenco não pode estar em campo com apenas cinco jogadores, o que resultou na vitória por W.O do Flamengo.</p>
         </article>
-        <div class="imagem">
-            <p>AAAAAAAAAAAAAAAAAAAAA</p>
+        <div class="imagem__zico">
+            <p>- Z I C O -</p>
         </div>
-        <article>
-            <p>Por fim, a semifinal foi em triangular onde claramente apenas o primeiro de cada um dos dois grupos de três estava classificado para a decisão da Libertadores. O Flamengo venceu os quatro jogos que disputou em casa e fora diante do Deportivo Cali e Jorge Wilstermann, carimbando o seu passaporte para a final.</p>
-
-            <strong>VIDEO NO JOGO AQUI</strong>
-
+        <article class="corpo__txt">
+            <p>Por fim, a semifinal foi em triangular onde claramente apenas o primeiro de cada um dos dois grupos de três estava classificado para a decisão da Libertadores. O Flamengo venceu os quatro jogos que disputou em casa e fora diante do Deportivo Cali e Jorge Wilstermann, carimbando o seu passaporte para a final.</p><br>
 
             <p>ficou marcada por ser o ano da primeira conquista do Flamengo. Na final, o Rubro-Negro enfrentou o Cobreloa em uma partida cheia de polêmicas e com a estrela de Zico brilhando em campo. Relembre a história da Libertadores de 1981 e veja o que levou o Flamengo ao título.</p>
-        </article>
-
-
-
-
+            
+            </article>
+            
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/1oHzn7pab0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </main>
+    <footer class="roda__pe">
+cody By <a href="#">Rafael Caciano</a>
 
+    </footer>
+<script>
+    function clickMenu(){  
+        if(menu__hb.style.transform == 'translateX(144px)'){
+           menu__hb.style.transform = 'translateX(0px)'
+           
+           ilogo.style.left= '95%'
+        }else{
+            menu__hb.style.transform = 'translateX(144px)'
+            ilogo.style.left= '90%'
+            
+        }
+        
+        
+
+    }
+</script>
     
 </body>
 </html>

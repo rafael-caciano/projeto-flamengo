@@ -6,49 +6,61 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-main{
-    display: none;
+
+body{
+    width: 100vw;
+    
+    
 }
 
+
 .menu{
+    width: 100vw;
     height: 50px ;
     background-color: rgba(0, 0, 0, 0.557);
     display: flex;
     flex-direction: row-reverse;
+    position: fixed;
 }
 
 .icone__menu{
-    transform: translateX(-90px);
+    color: white;
+    position: fixed;
+    left: 90%;
+    top: 15px;
+    cursor: pointer;
+    transition: 1s ease;
 }
 
 .menu__itens{
     text-transform: uppercase;
+    width: 124px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.565);
     gap: 30px;
     padding: 10px;
+    padding-top: 60px;
     text-align: center;
-    transform: translateX(142px);
-    transition: transform 1s ease;
-    
-}
 
-.menu__itens:hover{
-    transform: translateX(0px);
+    transform: translateX(144px);
+    transition: 1s ease;
 }
 
 
 .menu__itens > a {
     color: white;
     border-bottom: 1px solid white;
+    
 }
 
 .logo{
     position: absolute;
     top:10px;
     left:10px ;
+    color: white;
+    font-weight: bold;
 }
 
 .logo img{
@@ -56,3 +68,88 @@ main{
     position: relative;
     top: 5px;
 }
+
+/* Aqui começa edição do corpo*/
+main{
+    overflow: hidden;
+}
+
+.imagem__bandeira{
+    width: 100vw;
+    height: 100vh;
+    background: url(../../imagens/img-bandeira-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+.imagem__bandeira p{
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagem__time-entrando{
+    width: 100vw;
+    height: 100vh;
+    background: url(../../imagens/time-\ entrando-em-campo-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+.imagem__time-entrando p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagem__zico{
+    width: 100vw;
+    height: 100vh;
+    background: url(../../imagens/desenho-zico.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.imagem__zico p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.corpo__txt{
+    width: 100vw;
+    text-align: justify;
+    line-height: 1.8em;
+    text-indent: 2em;
+
+    box-shadow: inset 1px 1px 10px 3px rgba(0, 0, 0, 0.484);
+    box-sizing: border-box;
+}
+.corpo__txt p {
+    padding:30px ;
+}
+
+.video{
+    width: 100vw;
+}
+
+.roda__pe{
+    background-color: rgba(0, 0, 0, 0.518);
+    color: white;
+    font-size: .5em;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
